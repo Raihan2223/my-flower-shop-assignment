@@ -1,0 +1,45 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header style */
+.header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 17px 36px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.banner {
+    padding: 30px 240px;
+    display: flex;
+
+}
+
+.banner-invitation {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner .first-image {
+    width: 635px;
+    height: 800px;
+}
+
+.first-section {
+    text-align: center;
+    display: block;
+    padding: 30px 590px;
+}
+
+ 
