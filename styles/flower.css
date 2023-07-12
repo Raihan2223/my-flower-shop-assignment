@@ -4,6 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.text-primary{
+    color: #E55473;
+}
 /* header style */
 .header {
     background: rgba(229, 84, 115, 0.10);
@@ -20,15 +23,25 @@ body {
 }
 
 .banner {
-    padding: 30px 240px;
+    padding: 30px 240px 0px 240px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
+.banner .second{
+    align-items: center;
+}
+.banner .first-image{
+    padding: 0px;
+}
 
-.banner-invitation {
+.banner-headline {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
+    margin-right: 90px;
+    margin-right: 97px;
 }
 
 .banner .first-image {
@@ -36,10 +49,74 @@ body {
     height: 800px;
 }
 
-.first-section {
+.section-title {
+    color: #272727;
     text-align: center;
-    display: block;
-    padding: 30px 590px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
 }
 
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 450px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+.section-two {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+     padding: 20px 150px 20px 0px;
+}
+.btn-primary .sign{
+    padding: 0px 0px 0px 100px;
+}
+
+.discount{
+    text-align: center;
+    align-items: center;
+    margin-top: 128px;
+    margin-bottom: 24px;
+}
+.flower-container{
+    padding: 0px 240px 0px 240px;
+    display: flex;
+    text-align: center;
+    gap: 24px;
+    margin-bottom: 128px;
+}
+.latest{
+    text-align: center;
+    display: block;
+
+}
+ .late-deal{
+    padding-top: 150;
+ }
+.bg-image{
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    height: 449px;
+    width: 1440px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+}
+.mail{
+    height: 50px;
+    width: 700px;
+}
  
+.last-section{
+    text-align: center;
+
+}
